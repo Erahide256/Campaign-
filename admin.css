@@ -1,0 +1,31 @@
+#login-content {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+#admin-content {
+    max-width: 1200px;
+}
+
+#login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+    width: 100%;
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    #login-form {
+        width: 100%;
+    }
+    .table {
+        font-size: 12px;
+    }
+}
+
